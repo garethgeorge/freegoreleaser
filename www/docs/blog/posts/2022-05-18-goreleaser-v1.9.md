@@ -18,16 +18,16 @@ This release contains several minor improvements and a couple of new features! L
 ## **Highlights**
 
 - `goreleaser changelog` was added to [GoReleaser Pro](https://goreleaser.com/pro) — you can use it to preview your next release changelog
-- added more build options, enabling you to build test binaries [#3064](https://github.com/goreleaser/goreleaser/pull/3064)
-- added `go_first_class` target options for build [#3062](https://github.com/goreleaser/goreleaser/pull/3062)
-- new run script for CIs that don't have it natively [#3075](https://github.com/goreleaser/goreleaser/pull/3075)
-- make it easier to run GoReleaser against a SCM that is not GitHub, GitLab or Gitea [#3088](https://github.com/goreleaser/goreleaser/pull/3088)
-- allow to create meta archives [#3093](https://github.com/goreleaser/goreleaser/pull/3093)
-- the archive pipe no longer check links are valid, like `tar` [#3103](https://github.com/goreleaser/goreleaser/pull/3103)
+- added more build options, enabling you to build test binaries [#3064](https://github.com/garethgeorge/freegoreleaser/pull/3064)
+- added `go_first_class` target options for build [#3062](https://github.com/garethgeorge/freegoreleaser/pull/3062)
+- new run script for CIs that don't have it natively [#3075](https://github.com/garethgeorge/freegoreleaser/pull/3075)
+- make it easier to run GoReleaser against a SCM that is not GitHub, GitLab or Gitea [#3088](https://github.com/garethgeorge/freegoreleaser/pull/3088)
+- allow to create meta archives [#3093](https://github.com/garethgeorge/freegoreleaser/pull/3093)
+- the archive pipe no longer check links are valid, like `tar` [#3103](https://github.com/garethgeorge/freegoreleaser/pull/3103)
 - a lot of bug fixes and docs improvements
 - we are also experimenting with new ways to share news with our users, the latest is our [newsletter](https://www.getrevue.co/profile/goreleaser)
 
-You can see the full changelog [here](https://github.com/goreleaser/goreleaser/releases/tag/v1.9.0).
+You can see the full changelog [here](https://github.com/garethgeorge/freegoreleaser/releases/tag/v1.9.0).
 
 ## **Other news**
 

@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 // Pipe for dist.

@@ -10,15 +10,15 @@ import (
 	"strings"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/gio"
-	"github.com/goreleaser/goreleaser/internal/ids"
-	"github.com/goreleaser/goreleaser/internal/logext"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/internal/skips"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/artifact"
+	"github.com/garethgeorge/freegoreleaser/internal/gio"
+	"github.com/garethgeorge/freegoreleaser/internal/ids"
+	"github.com/garethgeorge/freegoreleaser/internal/logext"
+	"github.com/garethgeorge/freegoreleaser/internal/semerrgroup"
+	"github.com/garethgeorge/freegoreleaser/internal/skips"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 // Environment variables to pass through to exec

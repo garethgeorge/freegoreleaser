@@ -8,8 +8,8 @@ import (
 	"text/template"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/logext"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/logext"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 const baseURL = "https://goreleaser.com/deprecations#"

@@ -68,5 +68,5 @@ You can also [sponsor the project](/sponsors), or get a
 [pro]: /pro
 [install]: https://goreleaser.com/install
 [pro-rel]: https://github.com/goreleaser/goreleaser-pro/releases/tag/v1.26.0-pro
-[oss-rel]: https://github.com/goreleaser/goreleaser/releases/tag/v1.26.0
+[oss-rel]: https://github.com/garethgeorge/freegoreleaser/releases/tag/v1.26.0
 [discord]: https://goreleaser.com/discord

@@ -7,7 +7,7 @@
 - Join our [Discord server](/discord)
 - Read our [blog](./blog/index.md)[^blog] ([RSS](/feed_rss_created.xml))
 - Follow us on [LinkedIn](/linkedin)
-- Ask questions on [GitHub Discussions](https://github.com/goreleaser/goreleaser/discussions)
+- Ask questions on [GitHub Discussions](https://github.com/garethgeorge/freegoreleaser/discussions)
 - Before contributing, read the [Contributing Guidelines](./contributing.md)
 - [Security Policy](./security.md)
 - [EULA](./eula.md)
@@ -19,7 +19,7 @@ By participating, you are expected to uphold this code.
 [^blog]:
     We accept guest posts!
     You can open a pull request adding your post to
-    [`./www/docs/blog/posts/`](https://github.com/goreleaser/goreleaser/blob/main/www/docs/blog/posts/),
+    [`./www/docs/blog/posts/`](https://github.com/garethgeorge/freegoreleaser/blob/main/www/docs/blog/posts/),
     and/or join our discord and discuss in the `blog` channel.
     You may also need to add yourself to
-    [`./www/docs/blog/.authors.yml`](https://github.com/goreleaser/goreleaser/blob/main/www/docs/blog/.authors.yml).
+    [`./www/docs/blog/.authors.yml`](https://github.com/garethgeorge/freegoreleaser/blob/main/www/docs/blog/.authors.yml).

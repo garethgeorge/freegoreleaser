@@ -14,10 +14,10 @@ import (
 	"strings"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/logext"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/logext"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 // ErrReplaceWithProxy happens when the configuration has gomod.proxy enabled,

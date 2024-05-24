@@ -5,9 +5,9 @@ import (
 	"fmt"
 	h "net/http"
 
-	"github.com/goreleaser/goreleaser/internal/http"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/http"
+	"github.com/garethgeorge/freegoreleaser/internal/pipe"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 // Pipe for http publishing.

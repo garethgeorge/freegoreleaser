@@ -6,10 +6,10 @@ import (
 
 	"github.com/caarlos0/go-shellwords"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/shell"
-	"github.com/goreleaser/goreleaser/internal/skips"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/shell"
+	"github.com/garethgeorge/freegoreleaser/internal/skips"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 // Pipe is a global hook pipe.

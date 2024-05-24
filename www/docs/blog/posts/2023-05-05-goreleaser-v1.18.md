@@ -168,4 +168,4 @@ full release notes and download the pre-compiled binaries [here][oss-rel] and
 
 [install]: https://goreleaser.com/install
 [pro-rel]: https://github.com/goreleaser/goreleaser-pro/releases/tag/v1.18.0-pro
-[oss-rel]: https://github.com/goreleaser/goreleaser/releases/tag/v1.18.0
+[oss-rel]: https://github.com/garethgeorge/freegoreleaser/releases/tag/v1.18.0

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
 	"github.com/klauspost/compress/zstd"
 	"github.com/stretchr/testify/require"
 )

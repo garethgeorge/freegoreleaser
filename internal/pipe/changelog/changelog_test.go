@@ -11,12 +11,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/internal/testctx"
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/client"
+	"github.com/garethgeorge/freegoreleaser/internal/git"
+	"github.com/garethgeorge/freegoreleaser/internal/testctx"
+	"github.com/garethgeorge/freegoreleaser/internal/testlib"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 func TestDescription(t *testing.T) {

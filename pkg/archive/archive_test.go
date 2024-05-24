@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/internal/testlib"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
 	"github.com/stretchr/testify/require"
 )
 

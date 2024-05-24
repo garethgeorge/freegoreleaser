@@ -6,9 +6,9 @@ import (
 
 	"github.com/caarlos0/env/v11"
 	"github.com/caarlos0/log"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 	api "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 const (

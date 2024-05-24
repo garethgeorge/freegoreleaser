@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/caarlos0/log"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
 	"github.com/goreleaser/fileglob"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/config"
 )
 
 // Eval evaluates the given list of files to their final form.

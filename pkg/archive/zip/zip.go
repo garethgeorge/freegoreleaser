@@ -11,7 +11,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
 )
 
 // Archive zip struct.

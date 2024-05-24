@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/testctx"
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	api "github.com/goreleaser/goreleaser/pkg/build"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/artifact"
+	"github.com/garethgeorge/freegoreleaser/internal/testctx"
+	"github.com/garethgeorge/freegoreleaser/internal/testlib"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	api "github.com/garethgeorge/freegoreleaser/pkg/build"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 

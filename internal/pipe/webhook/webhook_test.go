@@ -9,10 +9,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/garethgeorge/freegoreleaser/internal/testctx"
+	"github.com/garethgeorge/freegoreleaser/internal/testlib"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
 	"github.com/google/uuid"
-	"github.com/goreleaser/goreleaser/internal/testctx"
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
 	"github.com/stretchr/testify/require"
 )
 

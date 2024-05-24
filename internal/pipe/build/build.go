@@ -11,18 +11,18 @@ import (
 
 	"github.com/caarlos0/go-shellwords"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/deprecate"
-	"github.com/goreleaser/goreleaser/internal/ids"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/internal/shell"
-	"github.com/goreleaser/goreleaser/internal/skips"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	builders "github.com/goreleaser/goreleaser/pkg/build"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/deprecate"
+	"github.com/garethgeorge/freegoreleaser/internal/ids"
+	"github.com/garethgeorge/freegoreleaser/internal/semerrgroup"
+	"github.com/garethgeorge/freegoreleaser/internal/shell"
+	"github.com/garethgeorge/freegoreleaser/internal/skips"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	builders "github.com/garethgeorge/freegoreleaser/pkg/build"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 
 	// langs to init.
-	_ "github.com/goreleaser/goreleaser/internal/builders/golang"
+	_ "github.com/garethgeorge/freegoreleaser/internal/builders/golang"
 )
 
 // Pipe for build.

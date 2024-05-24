@@ -6,8 +6,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/git"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 // Pipe implemens defaulter to set the project name.

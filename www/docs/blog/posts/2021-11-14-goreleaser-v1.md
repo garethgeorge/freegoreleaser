@@ -66,5 +66,5 @@ easier! 💙
 
 Without further ado, you can get it here:
 
-- [GoReleaser v1.0.0](https://github.com/goreleaser/goreleaser/releases/tag/v1.0.0)
+- [GoReleaser v1.0.0](https://github.com/garethgeorge/freegoreleaser/releases/tag/v1.0.0)
 - [GoReleaser Pro v1.0.0](https://github.com/goreleaser/goreleaser-pro/releases/tag/v1.0.0-pro)

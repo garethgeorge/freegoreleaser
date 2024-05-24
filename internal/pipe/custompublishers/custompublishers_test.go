@@ -3,8 +3,8 @@ package custompublishers
 import (
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/testctx"
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/internal/testctx"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
 	"github.com/stretchr/testify/require"
 )
 

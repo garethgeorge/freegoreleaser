@@ -1,4 +1,4 @@
-module github.com/goreleaser/goreleaser
+module github.com/garethgeorge/freegoreleaser
 
 go 1.22
 

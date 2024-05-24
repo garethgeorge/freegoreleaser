@@ -5,7 +5,7 @@ import (
 	"runtime"
 
 	"github.com/charmbracelet/x/exp/ordered"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 type Pipe struct{}

@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/gio"
-	"github.com/goreleaser/goreleaser/internal/logext"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/gio"
+	"github.com/garethgeorge/freegoreleaser/internal/logext"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 var (

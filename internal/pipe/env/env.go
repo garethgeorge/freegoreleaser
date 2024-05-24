@@ -11,10 +11,10 @@ import (
 	"strings"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/logext"
-	"github.com/goreleaser/goreleaser/internal/skips"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/logext"
+	"github.com/garethgeorge/freegoreleaser/internal/skips"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 	homedir "github.com/mitchellh/go-homedir"
 )
 
@@ -22,7 +22,7 @@ import (
 var ErrMissingToken = errors.New("missing GITHUB_TOKEN, GITLAB_TOKEN and GITEA_TOKEN")
 
 // ErrMultipleTokens indicates that multiple tokens are defined. ATM only one of them if allowed.
-// See https://github.com/goreleaser/goreleaser/pull/809
+// See https://github.com/garethgeorge/freegoreleaser/pull/809
 type ErrMultipleTokens struct {
 	tokens []string
 }

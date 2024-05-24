@@ -17,9 +17,9 @@ Many people use these projects for their Go applications because they are pretty
 I’m so glad to announce that we finally [integrated these fantastic projects](/customization/ko)!
 
 > If you are interested in learning more about the development process of that
-> feature, here is the [PR](https://github.com/goreleaser/goreleaser/pull/3653/) you can take a look.
+> feature, here is the [PR](https://github.com/garethgeorge/freegoreleaser/pull/3653/) you can take a look.
 
-As a result, starting from [GoReleaser v1.15](https://github.com/goreleaser/goreleaser/milestone/17), you can build container images by setting configuration options for ko in GoReleaser without having ko installed on your environment.
+As a result, starting from [GoReleaser v1.15](https://github.com/garethgeorge/freegoreleaser/milestone/17), you can build container images by setting configuration options for ko in GoReleaser without having ko installed on your environment.
 
 This post will be a quick walkthrough to guide people about how things work.
 
@@ -178,7 +178,7 @@ The following projects are great examples of that:
 
 - [terraform-provider-ko](https://github.com/ko-build/terraform-provider-ko/blob/main/internal/provider/resource_ko_image.go)
 - [miniko](https://github.com/imjasonh/miniko)
-- And now, [GoReleaser](https://github.com/goreleaser/goreleaser/blob/main/internal/pipe/ko/ko.go)
+- And now, [GoReleaser](https://github.com/garethgeorge/freegoreleaser/blob/main/internal/pipe/ko/ko.go)
 
 And that’s it. All you need to do at that point is give a tag to your project and wait for the GitHub workflow to be completed to release your software.
 

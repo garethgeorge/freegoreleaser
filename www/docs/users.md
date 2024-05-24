@@ -106,7 +106,7 @@ Here's a running list of some organizations using GoReleaser[^1]:
 1. [Zeiss](https://github.com/ZEISS)
 1. [Zitatel](https://zitadel.com)
 
-Feel free to [add yours](https://github.com/goreleaser/goreleaser/edit/main/USERS.md)!
+Feel free to [add yours](https://github.com/garethgeorge/freegoreleaser/edit/main/USERS.md)!
 
 <!--
 Hey! Thanks for looking into this file!

@@ -10,11 +10,11 @@
     <projectUrl>https://goreleaser.com/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/goreleaser/goreleaser/main/www/docs/static/avatar.png</iconUrl>
     <copyright>2016-2022 Carlos Alexandro Becker</copyright>
-    <licenseUrl>https://github.com/goreleaser/goreleaser/blob/main/LICENSE.md</licenseUrl>
+    <licenseUrl>https://github.com/garethgeorge/freegoreleaser/blob/main/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/goreleaser/goreleaser</projectSourceUrl>
-    <docsUrl>https://github.com/goreleaser/goreleaser/blob/main/README.md</docsUrl>
-    <bugTrackerUrl>https://github.com/goreleaser/goreleaser/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/garethgeorge/freegoreleaser/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/garethgeorge/freegoreleaser/issues</bugTrackerUrl>
     <tags>go docker homebrew golang package</tags>
     <summary>Deliver Go binaries as fast and easily as possible</summary>
     <description>GoReleaser builds Go binaries for several platforms, creates a GitHub release and then pushes a Homebrew formula to a tap repository. All that wrapped in your favorite CI.</description>

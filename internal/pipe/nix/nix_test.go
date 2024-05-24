@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/golden"
-	"github.com/goreleaser/goreleaser/internal/skips"
-	"github.com/goreleaser/goreleaser/internal/testctx"
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/internal/artifact"
+	"github.com/garethgeorge/freegoreleaser/internal/client"
+	"github.com/garethgeorge/freegoreleaser/internal/golden"
+	"github.com/garethgeorge/freegoreleaser/internal/skips"
+	"github.com/garethgeorge/freegoreleaser/internal/testctx"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
 	"github.com/stretchr/testify/require"
 )
 
@@ -62,7 +62,7 @@ func TestPrefetcher(t *testing.T) {
 				require.ErrorIs(t, err, exec.ErrNotFound)
 			})
 			t.Run("valid", func(t *testing.T) {
-				sha, err := publishShaPrefetcher{nixPrefetchURLBin}.Prefetch("https://github.com/goreleaser/goreleaser/releases/download/v1.18.2/goreleaser_Darwin_arm64.tar.gz")
+				sha, err := publishShaPrefetcher{nixPrefetchURLBin}.Prefetch("https://github.com/garethgeorge/freegoreleaser/releases/download/v1.18.2/goreleaser_Darwin_arm64.tar.gz")
 				require.NoError(t, err)
 				require.Equal(t, "0girjxp07srylyq36xk1ska8p68m2fhp05xgyv4wkcl61d6rzv3y", sha)
 			})

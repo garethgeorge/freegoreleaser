@@ -383,7 +383,7 @@ milestones:
 release:
   name_template: "v{{ .Version }}"
   footer: |
-    **Full Changelog**: https://github.com/goreleaser/goreleaser/compare/{{ .PreviousTag }}...{{ if .IsNightly }}nightly{{ else }}{{ .Tag }}{{ end }}
+    **Full Changelog**: https://github.com/garethgeorge/freegoreleaser/compare/{{ .PreviousTag }}...{{ if .IsNightly }}nightly{{ else }}{{ .Tag }}{{ end }}
 
     {{ if not .IsNightly }}
     ## Helping out
@@ -404,13 +404,13 @@ release:
 announce:
   twitter:
     enabled: false
-    message_template: "GoReleaser {{ .Tag }} is out! Check it out: https://github.com/goreleaser/goreleaser/releases/tag/{{ .Tag }}"
+    message_template: "GoReleaser {{ .Tag }} is out! Check it out: https://github.com/garethgeorge/freegoreleaser/releases/tag/{{ .Tag }}"
 
   mastodon:
     enabled: true
-    message_template: "#GoReleaser {{ .Tag }} is out! Check it out: https://github.com/goreleaser/goreleaser/releases/tag/{{ .Tag }}"
+    message_template: "#GoReleaser {{ .Tag }} is out! Check it out: https://github.com/garethgeorge/freegoreleaser/releases/tag/{{ .Tag }}"
     server: https://fosstodon.org
 
   discord:
     enabled: true
-    message_template: "GoReleaser {{ .Tag }} is out! Check it out: https://github.com/goreleaser/goreleaser/releases/tag/{{ .Tag }}"
+    message_template: "GoReleaser {{ .Tag }} is out! Check it out: https://github.com/garethgeorge/freegoreleaser/releases/tag/{{ .Tag }}"

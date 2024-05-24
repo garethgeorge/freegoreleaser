@@ -89,8 +89,8 @@ You can find more information about it on the [issue][issue] that originated it 
 
 Make sure to also read the [relevant documentation][docs] for more options.
 
-[issue]: https://github.com/goreleaser/goreleaser/issues/1354
-[pr]: https://github.com/goreleaser/goreleaser/pull/2129
+[issue]: https://github.com/garethgeorge/freegoreleaser/issues/1354
+[pr]: https://github.com/garethgeorge/freegoreleaser/pull/2129
 [docs]: /customization/verifiable_builds/
 
 ## Real example

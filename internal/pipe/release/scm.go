@@ -3,8 +3,8 @@ package release
 import (
 	"fmt"
 
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 )
 
 func setupGitHub(ctx *context.Context) error {

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 
 	"github.com/caarlos0/log"
+	"github.com/garethgeorge/freegoreleaser/internal/tmpl"
+	"github.com/garethgeorge/freegoreleaser/pkg/config"
+	"github.com/garethgeorge/freegoreleaser/pkg/context"
 	"github.com/goreleaser/fileglob"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
 )
 
 // Find resolves extra files globs et al into a map of names/paths or an error.
